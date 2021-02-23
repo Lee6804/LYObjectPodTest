@@ -25,7 +25,7 @@ spec.summary               = '测试测试'
 spec.source                = { :git => 'https://github.com/Lee6804/LYObjectPodTest.git', :tag => spec.version }
 
 
-spec.source_files          = "NSObject+DAC_Help.{h,m}"
+spec.source_files          = "**/*.{h,m}"
 
 
 spec.library               = 'z'
